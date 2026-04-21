@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const port = process.env.PORT || 7003; // trying this line out
-// const port = 7003;
+const portNumber = process.env.PORT || 7003; // trying this line out
+// const portNumber = 7003;
 const bodyParser = require("body-parser");
 const { MongoClient, ServerApiVersion } = require("mongodb");
 
